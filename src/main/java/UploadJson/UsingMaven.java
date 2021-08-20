@@ -126,9 +126,7 @@ public class UsingMaven {
             HttpClient client = HttpClientBuilder.create().build();
             resp = client.execute(put);
             System.out.println("Response Code : " + resp.getStatusLine().getStatusCode());
-
         }
-
     }
 
     public static String readFileAsString(String file) throws Exception {
